@@ -1,0 +1,90 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+nav.top-nav {
+  background-color: #334259;
+  position: fixed;
+  width: 100%;
+  padding: 9px;
+}
+
+nav>ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+a.list {
+  color: #EDDDD0;
+  text-decoration: none;
+
+}
+
+a.list:hover {
+  color: #DB504A;
+}
+
+
+li, p, .list-title {
+  font-family: 'Shippori Mincho B1', serif;
+  margin: 0 10px;
+}
+
+
+section.main-content {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-content>div {
+  flex: 1;
+}
+
+div.left-section {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 70px ;
+  background-color:#DB504A;
+}
+
+div>img {
+  position: absolute;
+  top: -70px;
+  bottom: 0;
+  left: 10px;
+  height: 300px;
+  margin: auto;
+  width: 250px;
+}
+
+div>ul {
+  list-style: none;
+}
+
+div.right-section {
+  flex-grow: 4;
+  background-color: #638783;
+  padding-top: 70px;
+
+}
+
+footer.footer {
+  background-color: #334259;
+  width: 100%;
+  height: 25px;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  padding-top: 10px;
+}
+
